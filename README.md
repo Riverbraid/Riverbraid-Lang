@@ -1,3 +1,8 @@
+---
+**Status:** Experimental / Research
+**Normative Source:** Independent
+---
+
 # Riverbraid-Lang
 **Relational Substrate**
 
