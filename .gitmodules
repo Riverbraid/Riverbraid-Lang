@@ -1,0 +1,3 @@
+[submodule "riverbraid-core"]
+	path = riverbraid-core
+	url = https://github.com/Riverbraid/Riverbraid-Core.git
