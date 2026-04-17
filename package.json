@@ -1,1 +1,13 @@
-{"name":"@riverbraid/riverbraid-lang","version":"1.5.0","scripts":{"test":"node run-vectors.cjs verify"}}
+{
+  "name": "@riverbraid/riverbraid-lang",
+  "version": "1.5.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "verify": "node run-vectors.cjs verify",
+    "test": "node run-vectors.cjs verify"
+  },
+  "engines": {
+    "node": "24.11.1"
+  }
+}
