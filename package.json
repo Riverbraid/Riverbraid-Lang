@@ -1,0 +1,1 @@
+{"name":"@riverbraid/riverbraid-lang","version":"1.5.0","scripts":{"test":"node run-vectors.cjs verify"}}

@@ -1,0 +1,681 @@
+{
+  "version": "1.5.0",
+  "merkle_root": "6cd49b711031299d2bd0b85e19629f4ed2af2d76954841940f0ea8f9fd272fdb",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "5a0188f970af2e037db6c26fcb0beb47fcf0efa3b778001516cb0758c8be797a",
+      "leaf": "7ebfcd17586e0c01ec859bf84399643a4581a6cc306df8a48ccde573899f6c41"
+    },
+    {
+      "path": ".gitmodules",
+      "sha256": "e67abb0d2f618cb42058aba9872bb82ee4849dd91c1a8ebc6822dac1f89fa187",
+      "leaf": "0b00c2171b2af68335d11815ab5e319869d0d582263229b7ea90178c4ee2633b"
+    },
+    {
+      "path": "constitution.threshold.json",
+      "sha256": "e6ce8e0cc766aa8fef485b1b30fade481bd8358fa71a37d06d857880517b913c",
+      "leaf": "605dc02bea9a6336ace685f89f8c86adfae368e48a97efcfc4836e113f24721e"
+    },
+    {
+      "path": "package.json",
+      "sha256": "503b222624b4bb3cc725e1759fdc5ec28b18e25f1d29942b6f2d6cc1bbfd0e8b",
+      "leaf": "b2aa4367fecbf6b8544e795f8ac5cdd5c49b76ae88114708872cd14a6eca1495"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5c3cdb5bf404b06ed704644fca37723cc92f60b36b78a2920ce6d57caf382c86",
+      "leaf": "0d68fbbede3b493dd82120ec22f359f2b46db03ecfb2ab7766078ef316fd0717"
+    },
+    {
+      "path": "riverbraid-core/_CoqProject",
+      "sha256": "28b51efd3c096e5290dcaf17aa3c5d7b4a7d106c93db9b9476bfd92d1b37373f",
+      "leaf": "71258a5c392b24abec1f346f86c3b085b1b734d551771012f09f657c151d35fd"
+    },
+    {
+      "path": "riverbraid-core/.anchor",
+      "sha256": "b03417507af474c83b709329d55b0dad46abf21bc5567d8d7b6bd4a24c88cdff",
+      "leaf": "16519d3c9fa9de759fd078e67b60e6daf98b833ecae0ecf8479d0a2f3edf795c"
+    },
+    {
+      "path": "riverbraid-core/.gitattributes",
+      "sha256": "7c6fa177236c5eb06df75c2941304f2da69c9d9948f6c97da7aa6fbcc9b06c84",
+      "leaf": "faf54058dc91f53475cbda70c5ea75b02c847d8d47dbac6d44a6443ccf6349ab"
+    },
+    {
+      "path": "riverbraid-core/.gitignore",
+      "sha256": "1ef5144d08fdf810794ab3b7ed3427e9a59dceda52122ebb24fa3abdf538f827",
+      "leaf": "98bcc7f7fcb1aa35e5a5b2f943f5f9e10bbca674a2629dd30150c3ddfa7a7546"
+    },
+    {
+      "path": "riverbraid-core/.nvmrc",
+      "sha256": "1d57b0b9ecdc8c2f5bc0b6844ea2173d6530996998aed3fadaecb54766bb9585",
+      "leaf": "e725e7eccf2b95744f3009a43887a42fbcb7ed029108c98f872542cd08286715"
+    },
+    {
+      "path": "riverbraid-core/0$,",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "leaf": "2b5cc68d07f170424c83b6f8abd4c99f3cfc9b58b73b8488dec062788d44134e"
+    },
+    {
+      "path": "riverbraid-core/ARCH-MAP.md",
+      "sha256": "554528a938a8c7bd9fa09f9795ce0e36540049f1590bf76c801ce1ec84f777b4",
+      "leaf": "6fb87e37c9c5a2677690b7d2bc06a0bf6cb28fc93fffb32c76971dd15ad14a4b"
+    },
+    {
+      "path": "riverbraid-core/Assemble",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "leaf": "c014c2f3fe6240e9e32183c53e3b0ffa0512b9899f6d2e4128a5b808463270ef"
+    },
+    {
+      "path": "riverbraid-core/audit-ledger.js",
+      "sha256": "51c389321d5c15d996a24e6cc289f4000d62a6ba7167c53dac617ce9c2acd95a",
+      "leaf": "18b8137595304b0c664c402b3fc37d8111883af76e3457b9e1e7f9d1588c4f19"
+    },
+    {
+      "path": "riverbraid-core/bin/gate.mjs",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "leaf": "13dc65277947c5387212fcb8f941702d42f93abfd82e4f67264792e4643c0be1"
+    },
+    {
+      "path": "riverbraid-core/bin/heartbeat.mjs",
+      "sha256": "c0bc8656b364ee5d0535aa09c6fc959c8ea8b0dadfbd7571ad1b2ddab772fe31",
+      "leaf": "aa72f3873ea2babf1edf3bbd59df6dee8ff90a715c62efcc14aa9bf9176f6b70"
+    },
+    {
+      "path": "riverbraid-core/bin/pulse.mjs",
+      "sha256": "fb5d1cde646f066dc08497a0b65e34ede5a7196bc928eef44665daf0761890b1",
+      "leaf": "bee5978c158aa4dfff0ae3ba93b6ca2dc64b5f5c1299a13427ae2a5c1fdee48c"
+    },
+    {
+      "path": "riverbraid-core/bin/status_provider.mjs",
+      "sha256": "049ed2cbbad1cceb38f6ed867768de6e4f0d059612dd7420184d53ab63ef95fa",
+      "leaf": "adfc3e8beb7724678a533156e6f739a9ec05856269afd1b0aa06444e9d714f2a"
+    },
+    {
+      "path": "riverbraid-core/bin/validator.mjs",
+      "sha256": "6b8227b6fdc384afbda171140b86e38b0b67e063d8c9730f8faac4e98d275b12",
+      "leaf": "e7dad5ad7d9e72a2b7c6a5b2e7c752ca820790269b09074f55197d69eeb8efb1"
+    },
+    {
+      "path": "riverbraid-core/bin/verify.mjs",
+      "sha256": "b7e2d8eac1d093cd5dc103cde51a14590f97ce36d076774a39795339d278c5f7",
+      "leaf": "c192da70abddbe960e74bc36c1b177fa10f143c48a68707707ffeb0e08f2519f"
+    },
+    {
+      "path": "riverbraid-core/bridge-protocol.cjs",
+      "sha256": "e6d51821109cfb86a277cfb3bf49deb5039faddd4afe95f3b82a5019dd1d026b",
+      "leaf": "8ef1c4eb21d28ec7a6aa81bbd9868fe102b1415310b18e5e27b83e1778f5d4f2"
+    },
+    {
+      "path": "riverbraid-core/Build",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "leaf": "3fc908931fe4d2730cdd92e9615d23dd8e0c5d312145beaa2d300d29bbd50969"
+    },
+    {
+      "path": "riverbraid-core/canonical-json.cjs",
+      "sha256": "12a868b5d4e66b1cbc1c2e52ce7511a8239a7b062dca85cfb397a4fc1cff592c",
+      "leaf": "2a6011bb41c991cb3fa267bc844e69fc792253c625625c326e95e76bece05529"
+    },
+    {
+      "path": "riverbraid-core/ccdg.cjs",
+      "sha256": "a9e87a79094eaf7276862943a741196e884b6dcd739064325d1076c11f3d6df8",
+      "leaf": "ab15d03e253b1a2585263a50acc7f4a058087e22735b80412708d0a7dcd0b1a8"
+    },
+    {
+      "path": "riverbraid-core/cluster-manifest.json",
+      "sha256": "e88d43b57dcda9f08ff8b4c6b403a8c96d020c5d353f61167494462e8ed81fea",
+      "leaf": "4a826e182db570b4e830a129c7377444d410bfbf28b440aaf77c973015178abc"
+    },
+    {
+      "path": "riverbraid-core/cluster-repos.json",
+      "sha256": "93efa04c36031cac4e7fb8140a591a76e7cebc00583f5c2362fd25e013d53978",
+      "leaf": "de83e553a6dc76653294f23839b9ceb7f00a934b39f85b789a01d7993860ae0f"
+    },
+    {
+      "path": "riverbraid-core/cmr.cjs",
+      "sha256": "2aff804141f495f4c4e496876789a2caae161e8977d75304444748f21345840c",
+      "leaf": "951c3d662df78b83bd6201a6b1c51c607d36fb5dca8bf6881c69d14955d498f1"
+    },
+    {
+      "path": "riverbraid-core/cmr.js",
+      "sha256": "2f78eecc4a77079ddbfa7f9a7a786af3065145f95977be9a36af66c2e4715cca",
+      "leaf": "799248a960159c2a9fad10bcf0c86b23d7187adefec907a8db9ad2cde4fb0b15"
+    },
+    {
+      "path": "riverbraid-core/compile-constraints.cjs",
+      "sha256": "063f8b75822ae2fb76b367cc57e203a85f0d3f179fb3ea507a84b193a1ce6781",
+      "leaf": "86f7438d7ce0c80c9c8357a43404ed3cc32c17779f141ad5c4e7127afd1c91c9"
+    },
+    {
+      "path": "riverbraid-core/constitution.signature.json",
+      "sha256": "dea6c0e96c3ba6388913a8bccdd6d4d7e45802aedda78b3fb863563825a5e55a",
+      "leaf": "1ae99b1fff23418bcb3cb6de4409b2cf48c2e0f38657d4fb57330b28b5de6d4e"
+    },
+    {
+      "path": "riverbraid-core/constitution.snapshot.json",
+      "sha256": "b996abd6e256dc679f5acb9cbc8a8c9b939375421cdb8b92b514495ed68a5d10",
+      "leaf": "6ed947b1ce4db8cfb66de63d4f551553fe5a49dfa4ac0f36eb4c9f50548b7065"
+    },
+    {
+      "path": "riverbraid-core/constitution.snapshot.json.asc",
+      "sha256": "9560a28b00a902eb5b10b7e2497817ff2048efb02db8e9c10496970d4e11cf8d",
+      "leaf": "f514027b2b0c28e87f899eacd634d22517dbbd9d322a78022d5f27b06b2330e5"
+    },
+    {
+      "path": "riverbraid-core/constitution.threshold.json",
+      "sha256": "64c787487a94a10a4d9611d8265fe60364aff41af5a0f13a322120dc344899c7",
+      "leaf": "fba1b1fc7aaf2c0f1297eb0df173a1ae672948fd904108311da48bf1059f470a"
+    },
+    {
+      "path": "riverbraid-core/constitutional/DURABILITY.md",
+      "sha256": "caf0928cb07c7156a74d2a35115a064f4c90ca5d6a4be86889279be1b2cb1fe2",
+      "leaf": "ef7cc31d8086a8951374e93a3ec158809dbbbbcf9774b5a270bfcc96e3bcdbd6"
+    },
+    {
+      "path": "riverbraid-core/constitutional/LAYER-INVARIANTS.md",
+      "sha256": "f9c1f98ec8247ad7a2bb77633cf2abc4216eb74e9585840dd43c519c01994ab2",
+      "leaf": "eab3a91f238ee28f747698248c7f7b8e88f9a9a4e98b6f5f0f6ee9324cda9e5a"
+    },
+    {
+      "path": "riverbraid-core/constitutional/NEUTRAL-LAYERS.md",
+      "sha256": "e5b4048b186aa1cf4eb245826b8253630bc9926ba00703a1c6dc2ad22bb92356",
+      "leaf": "96fd2166e381e4c5730f2c6ae44695b66ac8fa4bdebf304e709416742e4b415e"
+    },
+    {
+      "path": "riverbraid-core/constitutional/RESILIENCE.md",
+      "sha256": "a2fe2608e82f25c657fab2bf177cb98844a5f0d5910284d58ebd3dbc866b05ee",
+      "leaf": "7b0fbc051cf96ebe91ea1c9f3913a32fb4fa2f7765208a7176479747d6ca731a"
+    },
+    {
+      "path": "riverbraid-core/constitutional/SCOPE.md",
+      "sha256": "13c4dd49b3ca66fe53d0ec5cd7f9efc6550205274a9b67bd92ffdc30f5caf93c",
+      "leaf": "3cf835c40daa1c780164f0756a30d65d83c6a76f253c60d1f4cd08e67845fe5a"
+    },
+    {
+      "path": "riverbraid-core/constitutional/SEAL-RECORD.md",
+      "sha256": "c5e8d62dbf23713c388d121525cfda6db9516d8052c28ffa00ac401f88e375ad",
+      "leaf": "ce3140827a0609aa8fdf00919c6bbf0b5fd5d0ba9fda5a9797d95598c6428994"
+    },
+    {
+      "path": "riverbraid-core/constitutional/SURVIVABILITY.md",
+      "sha256": "a735023fe0afa867bcf999d20b459af766303c2b6fde90cc120e136084db3917",
+      "leaf": "a9256bb24958f597ab84a2d6eef3c125fb14c378a75d8a3444b2e16eabba11bd"
+    },
+    {
+      "path": "riverbraid-core/constraints.dsl",
+      "sha256": "c9ab66425094bbeeede3466fa5de3a9cc596adbf21ddb88d3bd7b64faaff6bf9",
+      "leaf": "0fdd7f8ce488488656f0c82fa5e5aa696dc9038a4d5f9f37fd70860ed5431cd2"
+    },
+    {
+      "path": "riverbraid-core/convergence_plot.png",
+      "sha256": "50b5f2ceb4cf3fb3326a3f1e0abf669d4839bcf2401f5ddd49bc346541517336",
+      "leaf": "2285250a8c5b33eccdc7d89ea325c20721426af6eff26163a50706cf67b57050"
+    },
+    {
+      "path": "riverbraid-core/crypt-vault.cjs",
+      "sha256": "36b56e6aee8156285a7a109408b5d3c077bb0a2408e523f1745de33a2ad7a7d8",
+      "leaf": "abeedd191d14fb86644efb6ef3db8842bfcd84f0357337aaf8cd62bd3a174ef9"
+    },
+    {
+      "path": "riverbraid-core/CRYPTO.md",
+      "sha256": "1d8490493d09bdb18ed1ce14c0193d26bbd9fbf496b3af4737a3633842503f78",
+      "leaf": "aa8756e71abdd67ac905f92e7d0e4ec96b3b6f4d4fb4419b65481bd9bdd4bb9e"
+    },
+    {
+      "path": "riverbraid-core/gate.mjs",
+      "sha256": "bbb713432e7a945227798f6dcb29d9b99f26760616c5975a0609c30d9dde6110",
+      "leaf": "61fe043379ab620865af7bc400d9695a6722a487645332a2dc24b9dab0ec12df"
+    },
+    {
+      "path": "riverbraid-core/generate-swarm-manifest.cjs",
+      "sha256": "66540daa0d84946c4d4cfdb97616a88c3e1569d6836156f5d9ee2572e47d84d6",
+      "leaf": "fa800344acf1b57fbc92ef659bcd61815acf5664c2cae185385fcd6907347ece"
+    },
+    {
+      "path": "riverbraid-core/Go44/_CoqProject",
+      "sha256": "483d2b30c6cee8f1888ef6a99cd49c516c8096440c8fd738632b554bdc76c690",
+      "leaf": "5b47bd4afc0f65a6f12e32cd56c3b62bb517ed3403b7b932a4ef27910b58c6b4"
+    },
+    {
+      "path": "riverbraid-core/Go44/.Convergence.aux",
+      "sha256": "b48873a0830e9db690aa2a326bf66e9c0449106189b20e8d5ea9f48754744786",
+      "leaf": "b4c13b14c5d90ec08f958ace1426e48a74755bb02838012509b9fe75cebf4252"
+    },
+    {
+      "path": "riverbraid-core/Go44/.Core.aux",
+      "sha256": "14a86bb4cc23fd89a53aa65fd938ca404147b938a00e361c3b004d2cd0ef6cee",
+      "leaf": "be8da3b28c27ce8495c49ef7613a939c6032b2ffd33bb27be67756673228c5be"
+    },
+    {
+      "path": "riverbraid-core/Go44/.Extract.aux",
+      "sha256": "e58cf008a66ecf79d554b5fa306a61c3362178d0ebd0b0ea345c261c0674e9fb",
+      "leaf": "7490500ad88262fd2fffa23547d870d02794f7c16baeb53566e1824b08e36ae4"
+    },
+    {
+      "path": "riverbraid-core/Go44/.Invariants.aux",
+      "sha256": "df0a672ff5f4853769a55219e6dd2baadaa41b3827634e0cc98bdce2997bfdf4",
+      "leaf": "8965616715be4b4a37616393de71c9d2f71cdbdbef097a5b4ab6e4b57cb58a13"
+    },
+    {
+      "path": "riverbraid-core/Go44/.Safety.aux",
+      "sha256": "b9a9731e4c1ca21f4465a1e67b37ef3ae3df9f5e7bfd779e681cfb3b62682f2d",
+      "leaf": "f3cc2c407e4efc7eb8eed93e486af4fdd8d6580a087844a1d5164795f29b0417"
+    },
+    {
+      "path": "riverbraid-core/Go44/Convergence.v",
+      "sha256": "e0b352c94828bfd693ef9a94675bc2612cac8140fb4e9e17b4de76fb4a19db7a",
+      "leaf": "e73e0b0d2fecf6932a266c035d2e923420f90ba2d72f7479df9b7d5c4a8d77ca"
+    },
+    {
+      "path": "riverbraid-core/Go44/Core.v",
+      "sha256": "6ee7defd2c453f001522ded00c4024d107448c67f7e3f30517b9c3a21900d97b",
+      "leaf": "58c12972ca540ccd8dc88e1056a54dd74f84cdf90c7e7199be8752150cd8b02e"
+    },
+    {
+      "path": "riverbraid-core/Go44/Extract.v",
+      "sha256": "e8bcfa59c106c82fac8c1c96ec1fafbc116746e3e8fc45400ae58325c406263b",
+      "leaf": "a0e53b041a89361c73afa2c7a5b4a0cd189dafe8aefb77b31cd1196174f0c975"
+    },
+    {
+      "path": "riverbraid-core/Go44/Extraction.v",
+      "sha256": "711318bffef1130e1b46cc8af398619a998b37a77f73548dc03e8bd6065b2df4",
+      "leaf": "111e71da427d0ebe688cd9e295498fe8d6de83aaf86a0d89e2adc9bae585dc61"
+    },
+    {
+      "path": "riverbraid-core/Go44/GeneratedConstraints.v",
+      "sha256": "3ed519e7e1f04f5c63cc728ed5a1be9983e45993f3e74d9c6b82ef0fb5f20ab4",
+      "leaf": "584ae3e1b74223421e23c9c47cd4dca099fb85ac431425f58b49ccd0fe60dfcf"
+    },
+    {
+      "path": "riverbraid-core/Go44/Ingestion.v",
+      "sha256": "adfd74c89d03e199e0837b636984661d149a2e39ba9d69e3633bd1f9299a078a",
+      "leaf": "79be843a9b84b6dd718562b51410d3eb267471cb632d3bba3f15edfbeefea9b0"
+    },
+    {
+      "path": "riverbraid-core/Go44/Invariants.v",
+      "sha256": "34e4efb890375ad25ba259de256d90a70dd79fa7a4cee29e4bc5411e6dc83b36",
+      "leaf": "386c199e60fe93f3cb80a74876bf15641794ca259cfed0a8f993f133b01bb2c1"
+    },
+    {
+      "path": "riverbraid-core/Go44/main.cmx",
+      "sha256": "4883a5b77a66d24423edb65adc3706d42b75cb2e8cb832e7e0e0858599f5d98d",
+      "leaf": "73add0d177e2668afb1b63dd82fb1d91fe7ef1ca0143a4ad7e63c49b2c6da718"
+    },
+    {
+      "path": "riverbraid-core/Go44/main.ml",
+      "sha256": "f322b8bd8bfd00ba563196f262de56740ee7e4a583fc5af15618520fa01d3331",
+      "leaf": "777b76dc0d95644f8774282eee04ef872ad9b3d433014f155b6fbf86c40113b6"
+    },
+    {
+      "path": "riverbraid-core/Go44/main.o",
+      "sha256": "35bdd9657359ed9a7607ca5b62daf43a5ada56d9ca1ab243ea81607be8ad1fa4",
+      "leaf": "ee456acab540f74cf36fffe7cc318034b96c322bca3f691f33d2ee22da7e3548"
+    },
+    {
+      "path": "riverbraid-core/Go44/riverbraid_vm",
+      "sha256": "3cf8730a0a5c036e151089b77bbb3db0ead3ae447a032a531dc60a804b05040a",
+      "leaf": "fbc9cd82ee0f0ccbb71aef4d84f04ac6aa00411b3341ec0f6d966dfa14826dc4"
+    },
+    {
+      "path": "riverbraid-core/Go44/Safety.v",
+      "sha256": "1174c771365fea987ff00ef35eb10a3773d790a7496f2cbe09d4d31dae679f30",
+      "leaf": "8311708d9df788b47aad3269cf8cf6b8724040ce7f4e06d6191fa379230b128c"
+    },
+    {
+      "path": "riverbraid-core/Go44/ssg_vm.cmx",
+      "sha256": "9295037595cafedc83822817febbb35c4451107a7558d637d0032dce2bf601c9",
+      "leaf": "dd866f4f9007dad13457f4e311e54f1a84d1b3960c144f916bd26350772cae8d"
+    },
+    {
+      "path": "riverbraid-core/Go44/ssg_vm.ml",
+      "sha256": "cf5f53b055f97d2d7f41d2c0458f6c73f7dae443cc9351403eb0762b71e9cfaa",
+      "leaf": "85ec8f9561012cf5e19b94003439c0b76b3bf6e5f12b5bbbb143fff9237634c7"
+    },
+    {
+      "path": "riverbraid-core/Go44/ssg_vm.mli",
+      "sha256": "64e6d17df0b1bab140348829d1c818f581b0a29436f371fef43fa14bfb6be91a",
+      "leaf": "ff61de7f8f8ea6a0b7ba9640db4f6f36a9eb5b5943fef448af47e7d69e8b7d97"
+    },
+    {
+      "path": "riverbraid-core/Go44/ssg_vm.o",
+      "sha256": "704cc996d02145efd34e96217890308fe69890afa807b624fdb23c957bc60f39",
+      "leaf": "7e35455d891f85af89eb67ebd7e453484a3fbca7254a9bfa7b0128f849bb6086"
+    },
+    {
+      "path": "riverbraid-core/GPG-POLICY.md",
+      "sha256": "e93d0c0a1157e9f4a46daf954c74ed1d7d0441dba5bace0469b54e8d2a1a903a",
+      "leaf": "35066ce6d083b12588f1fe8ed778b54e7713aaa13a89b0c9096a6de70068142d"
+    },
+    {
+      "path": "riverbraid-core/harness.cjs",
+      "sha256": "47c4397068062e505366a62b0a31d4746da2644bb665378cfbc050cc7ef70f5c",
+      "leaf": "e46551a5f24501c19c55536fbd5e57ceb8262c30d2dedbe419e914517b8c3fae"
+    },
+    {
+      "path": "riverbraid-core/heartbeat.mjs",
+      "sha256": "6037676fc10b5b305faa047055f7b293b8cbf7f276f0dd1e2897d5151873148e",
+      "leaf": "c93d665a24e6041aa8d3000eccf66b92e6d8b4a0854dfc60b3f99f994c9ed7ef"
+    },
+    {
+      "path": "riverbraid-core/identity-gold.cjs",
+      "sha256": "a9ed17c189b236415926a897868e90dd498ff4077bdada7b6d5232dc20793dfb",
+      "leaf": "a811af7c5cabd6d3496b6dc76446271b0590ad84f6640c36f594d0cae4dd3fc8"
+    },
+    {
+      "path": "riverbraid-core/integrity.sh",
+      "sha256": "9f44306953216ddb7dc704a66094177486681e308478b92586d5751de7be88ca",
+      "leaf": "fc33a7bd222fa8e7d240fcad04e866fc5d65f55c187d425968e32de5d7e41f62"
+    },
+    {
+      "path": "riverbraid-core/LICENSE",
+      "sha256": "3c43d4165819a1a9f973bd0124e3d9cba76901529180c6941b7735a3315fc33d",
+      "leaf": "1d6337ce7d4720f9e9332eab15945cb6310951ffc181cf357b287e96144643dd"
+    },
+    {
+      "path": "riverbraid-core/MEMORY.json",
+      "sha256": "43254ed5180509ca0e9127409c0cf8d33179e97d0688ea7d69651b9abee72ae0",
+      "leaf": "76027f37907fdb087472296ad9a824cf212b2dffc573e47c2030c196aa65171c"
+    },
+    {
+      "path": "riverbraid-core/MERKLE_ROOT",
+      "sha256": "8aefe333e292940ec9143efa7a4e65eccb4c221aaa2d4a6af17f40816016d025",
+      "leaf": "e4ca67fe5460fd1527254851b4c0038e4a90f4f6ebc0121a4327050780b1b65d"
+    },
+    {
+      "path": "riverbraid-core/modules.constitution.json",
+      "sha256": "91e5e9ac8abf4d061aa0be038bdcab5b882b40461f4ef14a135e2aa8e30e8bc3",
+      "leaf": "3356b583d259fec35e9718932eb16767c31cae61933345af3f8ba21fb78fb630"
+    },
+    {
+      "path": "riverbraid-core/package.json",
+      "sha256": "12b047aed4e87757791502bb9049558121494f79943e7f711446519875077d38",
+      "leaf": "0de1ff88b337c4323a49c95ff7b67c7753fde83f0846dc4e3b05ec8ec7c26999"
+    },
+    {
+      "path": "riverbraid-core/paradox-resolver.cjs",
+      "sha256": "0627559e13982a0c485e074314467bddf0deb997ef99ec080fae327449c86fa6",
+      "leaf": "5ad5d886c988dec54f865ea07618bfa55b13e240ec289d437110b46de8eb0163"
+    },
+    {
+      "path": "riverbraid-core/pcm.cjs",
+      "sha256": "7b8f073f4acc19273002a766d6ad05b4fd1736af19cb0ed7b64e92afe1745dec",
+      "leaf": "70f0a55c48d768382f6e9407d9cec2faa3889daaba99285b2aa300efde3aafce"
+    },
+    {
+      "path": "riverbraid-core/plot_cluster_state.py",
+      "sha256": "31abc480b15382fb773829268147a772e25c30f49bbe5b5c41cd234712b969bf",
+      "leaf": "b2b92c1b15b9539518a88996d73fab543d9efc5a4bb67f3465091258d21bbbb0"
+    },
+    {
+      "path": "riverbraid-core/plot_convergence.py",
+      "sha256": "36130054b7f04b4104e7050698ac575795fa475cb8f7ee17744db44810dbf912",
+      "leaf": "1ec80b3c3c9081fa1f764e98338a0cc164ca31b2fb9394789ad80897d2b98a95"
+    },
+    {
+      "path": "riverbraid-core/profiler.cjs",
+      "sha256": "3a56bb581642d0443b2c858bf010522782f921d4e05745187aa68e606f1affe5",
+      "leaf": "0ec0e87b81b5362e34ea32b2b091850c258610d221d3a55939cfbd95cdad98e9"
+    },
+    {
+      "path": "riverbraid-core/proof-scaffold.cjs",
+      "sha256": "45f5e74da77694314f62ad9cc3590bfd2e973f25a31b695a4a3f5c60b40cd433",
+      "leaf": "df887160ff54cf35876402436dbab66852827a1207498032c8fca976720d57f0"
+    },
+    {
+      "path": "riverbraid-core/proofs/action.proof.json",
+      "sha256": "f4f46cd90d92c892d265bb2ac8627b04a6419365e4dc742f2e9574ff7dc30361",
+      "leaf": "b3215e9f2e90181b98186413b7e3e3f2dd207f64cde0b1cff36c79861d5bb923"
+    },
+    {
+      "path": "riverbraid-core/proofs/audio.proof.json",
+      "sha256": "2efbc5e69ae66f77b8611f0da47cea34ae290c8185d64725c070d36ae69fa6fd",
+      "leaf": "38018be4cad3bfbd152196d8294a5a0a89485ea0fb2a3690e2329d1a10bde89a"
+    },
+    {
+      "path": "riverbraid-core/PROOFS/resonance.proof",
+      "sha256": "c9e2a8dca96b3f48149ebddfabb62b32fc605b619b501404be6e2f77d44e28da",
+      "leaf": "323d6617405ba71441716c74d51ed2d057f0ae8d3b49eec79f25bd2ec0784c6c"
+    },
+    {
+      "path": "riverbraid-core/PROOFS/resonance.proof.asc",
+      "sha256": "2cc847ed524dff5225cb131979f3d1c4e5f0658937954a8f4a590dd84a4600f2",
+      "leaf": "0f59671d1dc9f20d6e53116deef42326aa6e22c60fbdc8faf4793d7fe44004b9"
+    },
+    {
+      "path": "riverbraid-core/PROOFS/v1.5.0_resonance_proof.json",
+      "sha256": "8a4c3562707a8233f0db22a66da8786f5b99830b6d9269ab9b64b00f69556628",
+      "leaf": "224243fd24018c2acc4def3bd01c955e1fd43f7ddff58919417a1655858aa7e8"
+    },
+    {
+      "path": "riverbraid-core/PROOFS/v1.5.0_resonance_proof.json.asc",
+      "sha256": "da8e98ec69b56841a27ca7382affb12a4a02884256e91df9de29b6c59f7dc4d5",
+      "leaf": "2e187c128783e37416d89d237fcd90bd40caeb6e2a4194f7a4c5345a239aca24"
+    },
+    {
+      "path": "riverbraid-core/proofs/vision.proof.json",
+      "sha256": "c6b114658a80f9286ac1bb2a70a85f54e334fe04a3fe9539ae099cee2db3130d",
+      "leaf": "1442968578bb27e3f6747b76af6ec4fe57e7d2716f39dae96fe06b303acb8ea9"
+    },
+    {
+      "path": "riverbraid-core/README.md",
+      "sha256": "a3b74240dd329efd4ce864b2c2bec2de9347caeca291855a9a12f3d7b2d9ff21",
+      "leaf": "d4487fedb782863ae2bbd92a00606a8ddca5d8e07a7aeeb78d7856629afbdee5"
+    },
+    {
+      "path": "riverbraid-core/refusal-engine.cjs",
+      "sha256": "8bd90c796cfd9ebd8b8f46ef13422a741c4f4c77ac531b62fabbd88dc64a4add",
+      "leaf": "ec737325bca36aa265ab58aca854bcadad0bcaa8a4aa9cee538320a5e7bd037a"
+    },
+    {
+      "path": "riverbraid-core/RELEASE.manifest.json",
+      "sha256": "99777f16376ce9032115eb9b963369b9b6a1308df370a08ec6da0477cc078c74",
+      "leaf": "b840daa1ef8c0ca6ff7deee34ac45f204f2901e1ceb8046c8007e24687f03f4b"
+    },
+    {
+      "path": "riverbraid-core/riverbraid-shield.js",
+      "sha256": "f097e91f644a61db7a3f4f22d37fae464895580d8b31a5bfbca627da5ef9a46e",
+      "leaf": "556465394b02c1440f2eb620a836dc38cfc651bef16dc1537e1a3fb817ffc9c5"
+    },
+    {
+      "path": "riverbraid-core/RIVERBRAID-SPEC.md",
+      "sha256": "ce101869908b1463cf906b4ee16283c5d127dcd39e6979c86277711dae6d39f6",
+      "leaf": "3a74e6f3a9e364cff81426d1c8721b3fc25818ac4ff2e5bf2fbaa3462f97c264"
+    },
+    {
+      "path": "riverbraid-core/run-vectors.cjs",
+      "sha256": "8f857fab8b2f55a703e71e6562e701117c640f3205a00da0529dc45c42468090",
+      "leaf": "cd0f118f3a731e9740c70119378e248b402335e90ce90fc1b76667fafd3cf0ea"
+    },
+    {
+      "path": "riverbraid-core/run-vectors1.5.cjs",
+      "sha256": "7ff79f63b63ca6d7dc1a8fcebc1c20a230baee9c183f6809189734b964ecccba",
+      "leaf": "f87897f017f9fd9de1ff6b214fbb73d76591796f7f91a6d93edc52a6bafd2400"
+    },
+    {
+      "path": "riverbraid-core/runtime.csv",
+      "sha256": "66ece7fe476a65d8f7d93a377d17a27a0a99e0221f9e36d0156806de245b46df",
+      "leaf": "3b364330ee0033a7fff1071f63e54831054a2e7322845922c5a7dc182a73992d"
+    },
+    {
+      "path": "riverbraid-core/runtime/sim.ml",
+      "sha256": "4d751bfb8392f8e18361a2f7c1813c1f02b59e16e167f4e0c196d04e97e253fe",
+      "leaf": "babe4a4cd73de87dc43b0db62699af2e7bcb3081397efd38bc7d99eea6a8066c"
+    },
+    {
+      "path": "riverbraid-core/safety-gate.cjs",
+      "sha256": "dd51d5cd3afe43d9f508bfceb7dc3bf1475e89516ebf1a386d51d1bee083be9e",
+      "leaf": "55035ea4be03edec837dba660d7b0bc210700b0f395585e03113e6c9bbd2283c"
+    },
+    {
+      "path": "riverbraid-core/safety.constitution.json",
+      "sha256": "8bfda74cc958bba51b20774092ef1b237dbaaafcd3675887553b55a12e5a646c",
+      "leaf": "c560421048accfb678ec4a815e178196524af3a786d298799131d0e252edffc0"
+    },
+    {
+      "path": "riverbraid-core/SEAL-RECORD.md",
+      "sha256": "59147fa00bb3460856f5266da3420da3832a17e33353f70fc3612afd3d5d6ebf",
+      "leaf": "dcacd4925e5aee0ebc47ad61a9cf92b518ae2147046a9f1b1e5f54dab890693c"
+    },
+    {
+      "path": "riverbraid-core/seal.sh",
+      "sha256": "82ecdc104d5882871ae07508d8469ec9bcdd061e4f590995dd94e150fe140883",
+      "leaf": "a00896aeea4a44e6ed6ae93f223ad4bab6aa10fc7772467ddde60c12158b94b8"
+    },
+    {
+      "path": "riverbraid-core/SECURITY.md",
+      "sha256": "e5b9e82de0305fb04235aa90d03538979403d11d44f64f5567ba6ee41784a62d",
+      "leaf": "62c902c9ed5a9adb6cb20b87e11a267ea47a6161ee07aa8e3295008d5ca4ec2c"
+    },
+    {
+      "path": "riverbraid-core/semantic-bridge.json",
+      "sha256": "d19266e91a101fd2718195b6befdda7743a36fcd46d86801c87d37aff9cc7a4c",
+      "leaf": "7f12608b69e996c4cbfd5af63e682273a09fcecd7c56c942109d527b1b0f775a"
+    },
+    {
+      "path": "riverbraid-core/SHA256SUMS",
+      "sha256": "c28eb655dd852217205ba1705a26a782e745d31290e19c63ca2615908a761743",
+      "leaf": "052884d09b76e718b280edd60a82c3990a0cd4f6e91b4283b97db7fdbb058eb3"
+    },
+    {
+      "path": "riverbraid-core/signature.asc",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "leaf": "b9f7a305cbd8f1403e6bac5885a375f66b7a1cfe90673078979002c3cf4f8b1a"
+    },
+    {
+      "path": "riverbraid-core/snapshot.schema.cjs",
+      "sha256": "5453d2c63ab946bc56759bc132bbb259ba4e38a0d8ffb22c7e50b132e5d89c1f",
+      "leaf": "efbed63533b27931b1e3d0c122550ebd864d441d279928a02baf039263676d58"
+    },
+    {
+      "path": "riverbraid-core/SOVEREIGN_SPEC.md",
+      "sha256": "f0adf6d631d39bcdd32a702843b54888eed833e0c615585d537179e5462b11dc",
+      "leaf": "0cbb223f2e666588051266154cdf3d68f0cd91e10e38c62b1ec457a35635e8ed"
+    },
+    {
+      "path": "riverbraid-core/SOVEREIGN-ENVIRONMENT.md",
+      "sha256": "66dfdddbc560f21a35ca44a5ce98b56296f3ba0ee3fdf924e1974e05eecadf3b",
+      "leaf": "6f90dce35c4e6aafbb5a320bf2227077ec6ecb6fa0fb425c48f172a859656641"
+    },
+    {
+      "path": "riverbraid-core/specs/convergence.spec",
+      "sha256": "99d4601a3d1df648466c218fa371d428446335f93bd6cacd161257d7096e3d4d",
+      "leaf": "9beb3c575b25b72ab24861699d9e05ececb1553026d24dbdc5c5f9d47f4538ec"
+    },
+    {
+      "path": "riverbraid-core/src/dormancy-guard.js",
+      "sha256": "3413909c6e994800c4bccb99dc9f1fb723469a22b986c5b2de468593120529fc",
+      "leaf": "013b2716b1f0189f4bd7d119835b4387450654e5aae5ddf149593a7ba7680405"
+    },
+    {
+      "path": "riverbraid-core/src/generated-constraints.js",
+      "sha256": "73ee6449d71ae3ac6e74e6ee1c8332b8c22681eb252167b3efcc4020f453766a",
+      "leaf": "ce0b223d5f33a7c3c7dc5e5420e21c3d337671007a160bf8eab05e4786fc58ed"
+    },
+    {
+      "path": "riverbraid-core/src/index.cjs",
+      "sha256": "2dd54b0c3ff178b3ea87cf21a81a6e6ca29c9122e3614ef928ca7433c4519d34",
+      "leaf": "aa3e3113c89a2d552d7f89aa710626b94b7ffb9d8d5e4e05ff153a7e1c2791f7"
+    },
+    {
+      "path": "riverbraid-core/src/invariants.js",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "leaf": "a51aa4e17b3462da5c87141663e79cf7f4e31ddec886b60e68c557c0f1b307b0"
+    },
+    {
+      "path": "riverbraid-core/src/invariants/election.cjs",
+      "sha256": "8019051a54c304707127c0833a605e22d8d42a2270bd5140969a76afe83775d5",
+      "leaf": "bbe4f3c45bc40bf97a1d781658e5de4b4fed7fd8b153bff6a90fd55d10c46dfb"
+    },
+    {
+      "path": "riverbraid-core/src/invariants/network.cjs",
+      "sha256": "d6301981970d35f755a4da4810b2d8c9296353c674189cab3bb738af7e8fbff1",
+      "leaf": "0c58b1fa6cdbe6358b3b335013548cb183388081c46d93247cd8634367d4e5aa"
+    },
+    {
+      "path": "riverbraid-core/src/invariants/persona.cjs",
+      "sha256": "e2e8e24a5d02121affa67e40240e0d1bcc8fca46f932104f10a6425a06401f44",
+      "leaf": "7b53de2b1946c32eefdfa6f2b9ae74fceb885d4f1e226c173fbb6e8147afc104"
+    },
+    {
+      "path": "riverbraid-core/src/registry-automation.cjs",
+      "sha256": "70fb2909845cf1239ddb51d115bb2f670ccb9259f7b3b81c394c1ce449023228",
+      "leaf": "15e12010e562324ca3c3825cac5be4021e30bdddb66bd11e0c5b573570fd7642"
+    },
+    {
+      "path": "riverbraid-core/src/vector-synthesis/engine.js",
+      "sha256": "6ee799d55b26dfb1f939def6e9ff40994e26adf328ea3cfd6aa473309813d03a",
+      "leaf": "0b4fdb41bb294c1ba4f790a0e309e77585d5b368eb788053e1a3383f0d1d16ad"
+    },
+    {
+      "path": "riverbraid-core/src/verifier/run-vectors.cjs",
+      "sha256": "8f857fab8b2f55a703e71e6562e701117c640f3205a00da0529dc45c42468090",
+      "leaf": "2b1f6922baea82b16501a55baf86ab93cb305514cb335b78d7ae0b76a458bb3a"
+    },
+    {
+      "path": "riverbraid-core/swarm-hash.cjs",
+      "sha256": "64a46c2e4d053aaa9469c3779ae9e5dc6a856de110d5d02bfb89657a0d154b22",
+      "leaf": "1b7342b9b1955b8f923957003e61e284aa75676e82d9ee3d6957a6bbe5c9101a"
+    },
+    {
+      "path": "riverbraid-core/swarm-manifest.json",
+      "sha256": "19cfed6b480cc5dc32f32feecd2ba97ed7a4fee82220ebdce462753618863e6c",
+      "leaf": "0809d1ed355e8cc68ca0a27cfceade50a8f1fa82163eab30d784ee74801da4e6"
+    },
+    {
+      "path": "riverbraid-core/swarm-signatures.json",
+      "sha256": "e899fe303523f80b6350416dd5f9d93ec593733a057aad851338404aa4343d3f",
+      "leaf": "945175a77c5efb822ee360e8caffc266ab9d7fab550c47e5a78178422d67fbf0"
+    },
+    {
+      "path": "riverbraid-core/temporal-bridge.cjs",
+      "sha256": "79a05febb750bd1e2d2e87c12019a9266c3ed39a0080c332ae45a4be6a44edbd",
+      "leaf": "549b9f55d16438feb2da822228f9814d4a1de6bea3dfe1b46d44a28071d8061b"
+    },
+    {
+      "path": "riverbraid-core/tests/fuzz/canonicalization.fuzz.js",
+      "sha256": "3712139b5e2b36a30bcb516df59d214db613cd98cc3d884ffb48c23937b155da",
+      "leaf": "fd5560c668830f275e09a80bb02f931fb9b3ba27dc9500f1d5ff423a157b1ea8"
+    },
+    {
+      "path": "riverbraid-core/v1.5.0-SOVEREIGN.md",
+      "sha256": "e1296cb2660c45d9c811e6d1467b39098135d836dbae15d454f9cf2ab2f4d553",
+      "leaf": "c297a2ca524dbd2c571445e55dea52ad256420c6e2b53add30a328f912020ae1"
+    },
+    {
+      "path": "riverbraid-core/Vectors",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "leaf": "1106d6b71b58717e23bde093547482e60ad90878073a8f0e22c161ca46cecc42"
+    },
+    {
+      "path": "riverbraid-core/VECTORS_ATTESTATION_V1.json",
+      "sha256": "6e120631d5207039a3df661741676b3a6344ba691e9dd177031f48e628827695",
+      "leaf": "703a223fdb912f79ef6b9c49a297a1a6addca062eaa0e2035a2611f8cd4594f8"
+    },
+    {
+      "path": "riverbraid-core/vectors.manifest.json",
+      "sha256": "03636197168a8da8afaeceaba661569dd662df289299e553159c3eb0d3a8df33",
+      "leaf": "99a9b0ee682161c36b67e8763683fb2ee51a2f2c9e7ecb9552ad519d0fe80bd4"
+    },
+    {
+      "path": "riverbraid-core/verify-swarm.cjs",
+      "sha256": "e7d87975c530823d99f133e533e0c2daa6cac2260e28afb3c19c94509f29f2b2",
+      "leaf": "e7f2e1d70e3b28cfdaa530f8539efa33475ac492d5de3bf7df4642bda6bf4417"
+    },
+    {
+      "path": "riverbraid-core/zk/constraints.circom",
+      "sha256": "09707fe644d85a1994c97f98b6b5267d4eeed7df9e5426cde3bab3f6806dd21c",
+      "leaf": "a5166918b5081f6546f087ee9f3618db42bcb40cf89c767c135b5d0b2272caa1"
+    },
+    {
+      "path": "riverbraid-verify-chain.js",
+      "sha256": "e3652b7d60d50a64f582a36c52b0768f7b0e27a75fef1fc57013769c15f1d78b",
+      "leaf": "a13a396f7d6b029769b01c3c6e2098bfafd9bb5b9411ce5fb6efb8a588abd988"
+    },
+    {
+      "path": "run-vectors.cjs",
+      "sha256": "dacac55fa4846267c962d0e5a46d2ba3d81a40de7cd544cd25751407e788c818",
+      "leaf": "e448a8e65fd67fa0cbdbd24c67ce708edbf83bbd817e1ce9a5912f874e6e0458"
+    }
+  ]
+}
