@@ -1,13 +1,10 @@
-{
-  "name": "@riverbraid/riverbraid-lang",
+﻿{
+  "name": "riverbraid-lang",
   "version": "1.5.0",
-  "private": true,
-  "type": "commonjs",
-  "scripts": {
-    "verify": "node run-vectors.cjs verify",
-    "test": "node run-vectors.cjs verify"
-  },
+  "type": "module",
+  "description": "Semantic Bridge for Riverbraid Cluster",
+  "main": "index.js",
   "engines": {
-    "node": "24.11.1"
+    "node": ">=20.11.0"
   }
 }
