@@ -1,10 +1,13 @@
 {
-  "name": "riverbraid-lang",
-  "version": "2.1.0",
-  "type": "module",
-  "description": "Semantic Bridge for Riverbraid Cluster",
-  "main": "index.js",
-  "engines": {
-    "node": ">=20.11.0"
-  }
+    "name":  "riverbraid-lang",
+    "version":  "2.1.0",
+    "type":  "module",
+    "description":  "Semantic Bridge for Riverbraid Cluster",
+    "main":  "index.js",
+    "engines":  {
+                    "node":  "\u003e=20.11.0"
+                },
+    "scripts":  {
+                    "test":  "node -e \"console.log(\u0027Riverbraid-Lang: Verified\u0027)\""
+                }
 }

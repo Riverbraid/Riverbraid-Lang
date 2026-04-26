@@ -12,7 +12,7 @@ const REQUIRED_FILES = ['README.md', 'package.json', 'run-vectors.cjs', 'constit
 function sha256Hex(buf) { return crypto.createHash('sha256').update(buf).digest('hex'); }
 function normalizeRel(p) { return p.split(path.sep).join('/'); }
 function assertRuntime() {
-  if (process.version !== 'v24.11.1') throw new Error(`NODE_VERSION_MISMATCH: expected v24.11.1 but found ${process.version}`);
+  if (process.version !== 'v24.15.0') throw new Error(`NODE_VERSION_MISMATCH: expected v24.15.0 but found ${process.version}`);
 }
 
 function walk(dir, root, out) {
@@ -46,3 +46,4 @@ function main() {
   } catch (err) { console.error(err.message); process.exit(1); }
 }
 main();
+
