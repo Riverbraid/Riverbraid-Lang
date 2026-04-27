@@ -1,4 +1,4 @@
-{
+﻿{
     "name":  "riverbraid-lang",
     "version":  "2.1.0",
     "type":  "module",
@@ -8,6 +8,7 @@
                     "node":  "\u003e=20.11.0"
                 },
     "scripts":  {
-                    "test":  "node -e \"console.log(\u0027Riverbraid-Lang: Verified\u0027)\""
+                    "test":  "npm run verify:feature-flow \u0026\u0026 node -e \"console.log(\u0027Riverbraid-Lang: Verified\u0027)\"",
+                    "verify:feature-flow":  "node verify-feature-flow.cjs"
                 }
 }
