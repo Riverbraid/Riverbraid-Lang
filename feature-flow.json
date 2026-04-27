@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "repo": "Riverbraid-Lang",
   "current_change": {
-    "id": "riverbraid-lang-gate-v1",
+    "id": "riverbraid-lang-feature-flow-v1",
     "type": "linear",
     "status": "active",
     "requires_protocol_version_change": false,
@@ -11,8 +11,15 @@
   },
   "allowed_types": ["linear", "nonlinear"],
   "rules": {
-    "linear": { "meaning": "Additive...", "requires_protocol_version_change": false, "requires_vector_update": true, "requires_release_gate": true },
-    "nonlinear": { "meaning": "Structural...", "requires_protocol_version_change": true, "requires_vector_update": true, "requires_release_gate": true }
+    "linear": { "requires_protocol_version_change": false },
+    "nonlinear": { "requires_protocol_version_change": true }
   },
-  "cannot_mean": ["Linear does not mean unimportant.", "Nonlinear means protocol affecting..."]
+  "cannot_mean": [
+    "Linear does not mean unimportant.",
+    "Linear does not mean unverified.",
+    "Linear does not mean safe by default.",
+    "Nonlinear does not mean bad.",
+    "Nonlinear does not mean forbidden.",
+    "Nonlinear means protocol affecting."
+  ]
 }
