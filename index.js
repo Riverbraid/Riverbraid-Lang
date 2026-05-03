@@ -1,19 +1,19 @@
-﻿import { execSync } from "child_process";
-import { RelationalProcessor } from "../Riverbraid-Cognition/processor.js";
-import { generateSeal } from "../Riverbraid-Crypto-Gold/sealer.js";
-import { checkSafety } from "../Riverbraid-Safety-Gold/guard.js";
-import { arbitrate } from "../Riverbraid-Judicial-Gold/arbiter.js";
-import { analyzeVision } from "../Riverbraid-Vision-Gold/analyzer.js";
-import { analyzeAudio } from "../Riverbraid-Audio-Gold/listener.js";
-import { commitToMemory } from "../Riverbraid-Memory-Gold/ledger.js";
-import { checkCadence } from "../Riverbraid-Temporal-Gold/clock.js";
+import { execSync } from "child_process";
+import { RelationalProcessor } from "riverbraid-cognition/processor.js";
+import { generateSeal } from "riverbraid-crypto-gold/sealer.js";
+import { checkSafety } from "riverbraid-safety-gold/guard.js";
+import { arbitrate } from "riverbraid-judicial-gold/arbiter.js";
+import { analyzeVision } from "riverbraid-vision-gold/analyzer.js";
+import { analyzeAudio } from "riverbraid-audio-gold/listener.js";
+import { commitToMemory } from "riverbraid-memory-gold/ledger.js";
+import { checkCadence } from "riverbraid-temporal-gold/clock.js";
 
 const engine = new RelationalProcessor();
 
 function bridgeIntent(intent) {
-  console.log(`🎙️  Bridge Received: "${intent}"`);
+  console.log(`???  Bridge Received: "${intent}"`);
   const safety = checkSafety(intent);
-  if (!safety.cleared) { return console.error(`🚨 Safety Violation: ${safety.reason}`); }
+  if (!safety.cleared) { return console.error(`?? Safety Violation: ${safety.reason}`); }
 
   let result;
 
@@ -28,7 +28,7 @@ function bridgeIntent(intent) {
   else if (/seal|sign/i.test(intent)) {
     result = generateSeal({ engine: engine.state });
     commitToMemory({ type: "seal", data: result });
-    console.log(`✅ System Sealed and Memorized: [${result.seal}]`);
+    console.log(`? System Sealed and Memorized: [${result.seal}]`);
   }
   else if (/look|see|vision/i.test(intent)) {
     result = analyzeVision("current_frame");
@@ -41,11 +41,11 @@ function bridgeIntent(intent) {
   else if (/resolve|choose/i.test(intent)) {
     result = arbitrate(["Option A: Rapid Expansion", "Option B: Coherent Integration"]);
     commitToMemory({ type: "decision", data: result });
-    console.log(`⚖️  Judicial Decision: ${result.decision}`);
+    console.log(`??  Judicial Decision: ${result.decision}`);
   }
   else {
     result = engine.process(intent);
-    console.log(`🧠 Engine Response: ${result.output}`);
+    console.log(`?? Engine Response: ${result.output}`);
   }
 }
 bridgeIntent(process.argv.slice(2).join(" ") || "status");

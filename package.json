@@ -1,14 +1,20 @@
-{
-  "name": "riverbraid-lang",
-  "version": "2.1.0",
-  "type": "module",
-  "description": "Semantic Bridge for Riverbraid Cluster",
-  "main": "index.js",
-  "engines": {
-    "node": ">=20.11.0"
-  },
-  "scripts": {
-    "test": "npm run verify:feature-flow",
-    "verify:feature-flow": "node verify-feature-flow.cjs"
-  }
+﻿{
+    "main":  "index.js",
+    "description":  "Relational language processor for Riverbraid",
+    "name":  "riverbraid-lang",
+    "version":  "1.5.0",
+    "dependencies":  {
+                         "riverbraid-crypto-gold":  "file:../Riverbraid-Crypto-Gold",
+                         "riverbraid-audio-gold":  "file:../Riverbraid-Audio-Gold",
+                         "riverbraid-cognition":  "file:../Riverbraid-Cognition",
+                         "riverbraid-temporal-gold":  "file:../Riverbraid-Temporal-Gold",
+                         "riverbraid-judicial-gold":  "file:../Riverbraid-Judicial-Gold",
+                         "riverbraid-memory-gold":  "file:../Riverbraid-Memory-Gold",
+                         "riverbraid-safety-gold":  "file:../Riverbraid-Safety-Gold",
+                         "riverbraid-vision-gold":  "file:../Riverbraid-Vision-Gold"
+                     },
+    "type":  "module",
+    "scripts":  {
+                    "test:riverbraid":  "node verify-vector.cjs"
+                }
 }
