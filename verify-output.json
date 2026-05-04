@@ -1,0 +1,22 @@
+{
+  "repo": "Riverbraid-Lang",
+  "ring": 2,
+  "class": "language-layer",
+  "status": "VERIFIED",
+  "verification_scope": "ring2-language-anchor-and-file-surface",
+  "claim_boundary": "infrastructure-classification-only",
+  "expected_anchor": "STATIONARY_STATE_V2_20260425-092050",
+  "observed_anchor": "STATIONARY_STATE_V2_20260425-092050",
+  "anchor_matches": true,
+  "structural_artifact_present": true,
+  "required_files": [
+    ".anchor",
+    "AUTHORITY.md",
+    "RING.md",
+    "package.json",
+    "verify.mjs"
+  ],
+  "missing_files": [],
+  "failure_codes": [],
+  "digest": "sha256:d7bb9c9d24c7286660e58e6293e2ad791d791c0185b742ccc5af241cfbbaf045"
+}
