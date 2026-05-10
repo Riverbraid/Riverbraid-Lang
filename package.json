@@ -1,23 +1,8 @@
 {
-    "main": "index.js",
-    "description": "Relational language processor for Riverbraid",
-    "name": "riverbraid-lang",
-    "version": "1.0.960",
-    "dependencies": {
-        "riverbraid-crypto-gold": "file:../Riverbraid-Crypto-Gold",
-        "riverbraid-audio-gold": "file:../Riverbraid-Audio-Gold",
-        "riverbraid-cognition": "file:../Riverbraid-Cognition",
-        "riverbraid-temporal-gold": "file:../Riverbraid-Temporal-Gold",
-        "riverbraid-judicial-gold": "file:../Riverbraid-Judicial-Gold",
-        "riverbraid-memory-gold": "file:../Riverbraid-Memory-Gold",
-        "riverbraid-safety-gold": "file:../Riverbraid-Safety-Gold",
-        "riverbraid-vision-gold": "file:../Riverbraid-Vision-Gold"
-    },
-    "type": "module",
-    "scripts": {
-        "test:riverbraid": "node verify-vector.cjs"
-    },
-    "riverbraid": {
-        "role": "semantic"
-    }
+  "name": "riverbraid-lang",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "verify": "node verify.mjs" },
+  "riverbraid": { "ring": 2, "role": "language-layer", "invariant": "LANG_GRAMMAR_STATIONARY", "claim_boundary": "deterministic-infrastructure-contract-only" }
 }

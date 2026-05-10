@@ -1,73 +1,12 @@
-import fs from "node:fs";
-import crypto from "node:crypto";
-const repo = "Riverbraid-Lang";
-const ring = 2;
-const infraClass = "language-layer";
-const expectedAnchor = "STATIONARY_STATE_V2_20260425-092050";
-const requiredFiles = [
-  ".anchor",
-  "AUTHORITY.md",
-  "RING.md",
-  "package.json",
-  "verify.mjs"
-];
-const structuralArtifacts = [
-  "Cargo.toml",
-  "spec.json",
-  "src",
-  "package.json"
-];
-function readTextNoBom(path) {
-  return fs.readFileSync(path, "utf8").replace(/^\uFEFF/, "");
-}
-const missingFiles = requiredFiles.filter((file) => !fs.existsSync(file));
-const structuralArtifactPresent = structuralArtifacts.some((file) => fs.existsSync(file));
-let anchorValue = null;
-let anchorMatches = false;
-let failureCodes = [];
-if (missingFiles.length > 0) {
-  failureCodes.push("REQUIRED_FILES_MISSING");
-}
-if (fs.existsSync(".anchor")) {
-  anchorValue = readTextNoBom(".anchor").trim();
-  anchorMatches = anchorValue === expectedAnchor;
-  if (!anchorMatches) {
-    failureCodes.push("ANCHOR_MISMATCH");
-  }
-} else {
-  failureCodes.push("ANCHOR_MISSING");
-}
-if (!structuralArtifactPresent) {
-  failureCodes.push("STRUCTURAL_ARTIFACT_MISSING");
-}
-const ok =
-  missingFiles.length === 0 &&
-  anchorMatches &&
-  structuralArtifactPresent;
-const hash = crypto.createHash("sha256");
-for (const file of requiredFiles) {
-  if (fs.existsSync(file)) {
-    hash.update(file);
-    hash.update("\0");
-    hash.update(fs.readFileSync(file));
-    hash.update("\0");
-  }
-}
-const output = {
-  repo,
-  ring,
-  class: infraClass,
-  status: ok ? "VERIFIED" : "FILES_PRESENT_UNVERIFIED",
-  verification_scope: "ring2-language-anchor-and-file-surface",
-  claim_boundary: "infrastructure-classification-only",
-  expected_anchor: expectedAnchor,
-  observed_anchor: anchorValue,
-  anchor_matches: anchorMatches,
-  structural_artifact_present: structuralArtifactPresent,
-  required_files: requiredFiles,
-  missing_files: missingFiles,
-  failure_codes: ok ? [] : failureCodes,
-  digest: "sha256:" + hash.digest("hex")
-};
-fs.writeFileSync("verify-output.json", JSON.stringify(output, null, 2));
-process.exit(0);
+import fs from "node:fs"; import crypto from "node:crypto"; import { verify } from "./index.js";
+const repo="Riverbraid-Lang", role="language-layer", inv="LANG_GRAMMAR_STATIONARY", contract="grammar-contract", sig="lang:GRAMMAR_STATIONARY";
+const protocol = JSON.parse(fs.readFileSync("protocol.steps", "utf8"));
+const result = verify(protocol.canonical_input);
+const digest = crypto.createHash("sha256").update(JSON.stringify({repo, ring:2, role, inv, contract, input:protocol.canonical_input, result})).digest("hex");
+const req = ["package.json","index.js","verify.mjs","protocol.steps","AUTHORITY.md","RING.md"];
+const missing = req.filter(f => !fs.existsSync(f));
+const status = (missing.length === 0 && result.pass && result.stationary && result.signal === sig) ? "VERIFIED" : "FAILED";
+const out = { schema:"riverbraid.infrastructure.verify.output", version:"1.0.0", repo, ring:2, role, invariant:inv, contract_type:contract, status, canonical_signal:result.signal, canonical_reason:result.reason, digest:"sha256:"+digest, required_files:req, missing_files:missing, failure_codes: status==="VERIFIED"?[]:["INFRASTRUCTURE_CONTRACT_NOT_VERIFIED"] };
+fs.writeFileSync("verify-output.json", JSON.stringify(out, null, 2) + "\n", "utf8");
+if (status !== "VERIFIED") { console.error(repo+"_FAIL"); process.exit(1); }
+console.log(repo+"_PASS");

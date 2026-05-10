@@ -1,0 +1,1 @@
+{"schema":"riverbraid.protocol.steps","version":"1.0.0","canonical_input":{"repo":"Riverbraid-Lang","ring":2,"role":"language-layer","grammar":{"tokens":["DECLARE","VERIFY","REFUSE","AUDIT"],"forbidden":["AMBIGUOUS_AUTHORITY","UNSCOPED_CLAIM"]}}}
